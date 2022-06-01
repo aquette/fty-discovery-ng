@@ -79,7 +79,7 @@ systemctl start fty-discovery-ng
 This is not finished yet. But current implementation suppose to do:
 
 * Add MIB file to MIB database. (server/mibs)
-* In server/src/jobs/impl/mibs.cpp
+* In server/src/jobs/mibs.cpp
     * add MIB to knownMibs mapping
     * add MIB to mapMibToLegacy to map MIB to nut snmp-ups usage
 * Recompile
